@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-image: url(../imagenes/Background/TEXTURAS/textura-07.jpg);
+    background-size:cover;
+}
+
+
+
+@import "header"
