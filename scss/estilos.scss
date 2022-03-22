@@ -1,3 +1,8 @@
+@import "header";
+@import "footer";
+@import "home";
+
+
 html {
     box-sizing: border-box;
   }
@@ -5,10 +10,7 @@ html {
     box-sizing: inherit;
 }
 body{
-    background-image: url(../imagenes/Background/TEXTURAS/textura-07.jpg);
+    background-image: url(../imagenes/Background/TEXTURAS/textura-08.jpg);
     background-size:cover;
 }
 
-
-
-@import "header"

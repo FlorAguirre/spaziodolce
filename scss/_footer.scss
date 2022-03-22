@@ -1,0 +1,29 @@
+.footer{
+  background-color: #fce3db ; 
+  height: 75px;
+  margin:0;
+  background-size: cover;
+  object-fit: fit;
+  object-position: center bottom;
+  position:absolute;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .footer__iconos{
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+  .footer__iconos a{
+      text-decoration: none;
+  }
+
+  html{
+    position: relative;
+  }

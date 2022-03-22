@@ -14,43 +14,159 @@
 
 <body>
     <header>
-        
-    </header>
-    <section class="hero">
-        <div class="contenido-hero">
-           
-            <img class="imagen__logo animate__animated animate__slideInDown"
-                src="./Spazio Dolce -20220317T220057Z-001/Spazio Dolce/LOGOS/DIGITAL/LOGO-01.jpg" alt="">
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html"></a>
-              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./vistas/productos.html">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./vistas/sobrenosotros.html">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./vistas/sobrenosotros.html">Pricing</a>
-                  </li>
-                </ul>
-              </div>
+        <section class="hero">
+            <div class="contenido-hero">
+                <img class="imagen__logo animate__animated animate__slideInDown"
+                    src="./Spazio Dolce -20220317T220057Z-001/Spazio Dolce/LOGOS/DIGITAL/LOGO-01.jpg" alt="">
             </div>
-          </nav>
-    </section>
+            <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light justify-content-end ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"></a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active estilo__letra" aria-current="page"
+                                    href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link estilo__letra" href="#scrollspyHeading2">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link estilo__letra" href="#scrollspyHeading3">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link estilo__letra" href="./vistas/sobrenosotros.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+                <h4 id="scrollspyHeading1"></h4>
+                <p>...</p>
+                <h4></h4>
+                <p>...</p>
+                <h4></h4>
+                <p>...</p>
+                <h4 id="scrollspyHeading4"></h4>
+                <p>...</p>
+                <h4 id="scrollspyHeading5"></h4>
+                <p>...</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="section__nosotros contenedor__section1">
+            <div id="scrollspyHeading3" class="card mb-3 card__estilo " style="max-width: 700px;">
+                <div class="row g-0 ">
+                    <div class="col-md-4 ">
+                        <img src="./imagenes/Producciones/Silvi.JPG" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div id="carouselExampleFade" class=" container-fluid carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img class="carousel__imagen" src="./imagenes/Retocadas/20211107_081235 1.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel__imagen" src="./imagenes/Retocadas/20211012_130545 1.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel__imagen" src="./imagenes/Retocadas/20211029_205700 1.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next flecha__derecha" type="button"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
+        <section class="contenido-imagen">
+            <div class="contenido__imagen">
+                <div class="iconos__pasteleria">
+                  <!--   <img class="icono"
+                        src="./imagenes/iconos/3507769_birthday_cake_celebration_food_iconoteka_icon (2).png" alt="">
+                    <img class="icono" src="./imagenes/iconos/5241578_bakery_bread_cake_fruit_pastry_icon.png" alt="">
+                    <img class="icono" src="./imagenes/iconos/6169648_cake_cream_cupcake_dessert_food_icon.png" alt=""> -->
+                </div>
+            </div>
+        </section>
 
+        <section>
+            <div id= "scrollspyHeading2" class="conjunto__tortas">
+            <div class="eventos">
+                   <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211031_154613.jpg" alt=""></a> 
+            </div>
 
+            <div class="cakes">
+                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211107_082657.jpg" alt=""></a>
+            </div>
+
+            <div class="cookies">
+                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20210918_104813.jpg" alt=""></a>
+            </div>
+
+            <div class="macorrns">
+                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211126_184615.jpg" alt=""></a>
+            </div>
+
+        </div>
+        </section>
+    </main>
+
+    <footer
+        class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top footer container-fluid">
+        
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="./index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <span class="text-muted">Spazio Dolce&copy;</span></a>
+        </div>
+        <div class="footer__iconos">
+            <a href="https://api.whatsapp.com/send?phone=+5491158038794&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los productos"
+                target="_blank">
+                <ion-icon class="footer__iconos whatsapp" name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/pasteleria_spaziodolce/?hl=es" target="_blank">
+                <ion-icon class="footer__iconos instagram" name="logo-instagram"></ion-icon>
+            </a>
+            <a href="mailto:silborr@hotmail.com" target="_blank">
+                <ion-icon class="footer__iconos email" name="mail-outline"></ion-icon>
+            </a>
+        </div>
+  
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
