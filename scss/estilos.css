@@ -104,7 +104,7 @@ html {
 @media (max-width: 480px) {
   .card__estilo {
     margin-top: 50px;
-    height: 100px;
+    height: 50px;
     margin-left: 80px;
     width: 60%;
   }
@@ -124,7 +124,7 @@ html {
 @media (max-width: 480px) {
   @supports ((-o-object-fit: cover) or (object-fit: cover)) {
     .carousel__imagen {
-      margin-top: 350px;
+      margin-top: 400px;
       height: 300px;
       -o-object-fit: cover;
          object-fit: cover;
