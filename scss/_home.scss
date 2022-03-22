@@ -34,7 +34,7 @@
 @media(max-width:480px){
     @supports(object-fit: cover){
     .carousel__imagen{
-        margin-top:400px;
+        margin-top:350px;
         height:300px;
         object-fit: cover;
         width:100%;
@@ -113,6 +113,7 @@
     .conjunto__tortas{
         display:flex;
         flex-direction:column;
+        
     }
 }
 

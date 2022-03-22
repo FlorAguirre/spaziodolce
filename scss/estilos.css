@@ -124,7 +124,7 @@ html {
 @media (max-width: 480px) {
   @supports ((-o-object-fit: cover) or (object-fit: cover)) {
     .carousel__imagen {
-      margin-top: 400px;
+      margin-top: 350px;
       height: 300px;
       -o-object-fit: cover;
          object-fit: cover;
