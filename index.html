@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="./imagenes/favicon_io/favicon-16x16.png">
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
     <title>Spazio Dolce</title>
 </head>
 
@@ -40,7 +43,7 @@
                                 <a class="nav-link estilo__letra" href="#scrollspyHeading3">Sobre Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link estilo__letra" href="./vistas/sobrenosotros.html">Contáctanos</a>
+                                <a class="nav-link estilo__letra" href="./vistas/contacto.html">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -109,7 +112,7 @@
         <section class="contenido-imagen">
             <div class="contenido__imagen">
                 <div class="iconos__pasteleria">
-                  <!--   <img class="icono"
+                    <!--   <img class="icono"
                         src="./imagenes/iconos/3507769_birthday_cake_celebration_food_iconoteka_icon (2).png" alt="">
                     <img class="icono" src="./imagenes/iconos/5241578_bakery_bread_cake_fruit_pastry_icon.png" alt="">
                     <img class="icono" src="./imagenes/iconos/6169648_cake_cream_cupcake_dessert_food_icon.png" alt=""> -->
@@ -118,30 +121,45 @@
         </section>
 
         <section>
-            <div id= "scrollspyHeading2" class="conjunto__tortas">
-            <div class="eventos">
-                   <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211029_193355.jpg" alt=""></a> 
-            </div>
+            <div id="scrollspyHeading2" class="conjunto__tortas">
+                <div class="eventos">
+                    <div class="imagen__eventos">
+                        <a href="./vistas/eventos.html" class="parrafo"><h6 class="imagen__parrafo">Eventos</h6>
 
-            <div class="cakes">
-                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211107_082657.jpg" alt=""></a>
-            </div>
+                            <img class="imagen__cumple " src="./imagenes/Producciones/Eventos/20211029_193355.jpg"
+                                alt="">
+                            
 
-            <div class="cookies">
-                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20210918_104813.jpg" alt=""></a>
-            </div>
+                        </a>
+                    </div>
+                </div>
 
-            <div class="macorrns">
-                <a href=""><img class="imagen__cumple" src="./imagenes/Producciones/20211126_184615.jpg" alt=""></a>
-            </div>
+                <div class="cakes imagen__eventos">
 
-        </div>
+                        <a href="./vistas/cakes.html" class="parrafo"><h6 class="imagen__parrafo">Tortas</h6><img class="imagen__cumple" src="./imagenes/Producciones/20211107_082657.jpg" alt=""></a>
+                </div>
+
+                <div class="cookies imagen__eventos">
+                    <a href="./vistas/cookies.html" class="parrafo"> <h6 class="imagen__parrafo">Cookies</h6><img class="imagen__cumple" src="./imagenes/Producciones/20210918_104813.jpg" alt=""></a>
+                </div>
+
+                <div class="macorrns imagen__eventos">
+                    <a href="./vistas/macarons.html" class="parrafo"> <h6 class="imagen__parrafo">Macarons</h6><img class="imagen__cumple" src="./imagenes/Producciones/Eventos/20211126_184615.jpg" alt=""></a>
+                </div>
+
+            </div>
         </section>
     </main>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+5491131852008&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los productos"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <br>
+    <br>
     <footer
         class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top footer container-fluid">
-        
+
         <div class="col-md-4 d-flex align-items-center">
             <a href="./index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                 <span class="text-muted">Spazio Dolce&copy;</span></a>
@@ -158,7 +176,7 @@
                 <ion-icon class="footer__iconos email" name="mail-outline"></ion-icon>
             </a>
         </div>
-  
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

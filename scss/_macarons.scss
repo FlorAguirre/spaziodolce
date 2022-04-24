@@ -1,0 +1,23 @@
+.hero__macarons {
+    background-image: url(../imagenes/Producciones/Macarons/Macarns3.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    /* transparencia en el hero */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}

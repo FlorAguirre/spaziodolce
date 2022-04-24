@@ -6,12 +6,18 @@
   object-fit: fit;
   object-position: center bottom;
   position:absolute;
+  
 }
 
 @media(max-width:480px){
   .footer{
     height:100px;
+    padding-bottom: 0;
+   
+    
+    
   }
+ 
 }
 
 .bi {

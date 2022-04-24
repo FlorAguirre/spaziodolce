@@ -1,0 +1,16 @@
+.center{
+    margin:100px !important;
+    padding:20px;
+    border: 3px solid;
+    border-radius: 3em;
+    background-color: #87d1d2;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+@media(max-width:480px) {
+   .center{
+       padding: 20px;
+       margin: 60px !important;
+       
+   }
+}

@@ -45,7 +45,8 @@
 
 @media (max-width: 480px) {
   .footer {
-    height: 100px; } }
+    height: 100px;
+    padding-bottom: 0; } }
 
 .bi {
   vertical-align: -.125em;
@@ -136,8 +137,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   left: 40%;
-  top: 40%;
-  position: absolute; }
+  top: 40%; }
 
 .conjunto__tortas {
   display: grid;
@@ -155,7 +155,9 @@ html {
   width: 95%;
   object-fit: cover;
   margin-left: 10px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.5); }
+  box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  border-radius: 30px; }
 
 @media (max-width: 480px) {
   @supports (object-fit: cover) {
@@ -165,8 +167,143 @@ html {
       object-fit: cover;
       margin-left: 40px; } } }
 
-.imagen__cumple:hover {
+.imagen__eventos:hover {
   filter: brightness(0.6); }
+
+.imagen__eventos {
+  padding-bottom: 40px; }
+
+.imagen__parrafo {
+  text-align: center;
+  font-size: 4rem;
+  top: 40%;
+  width: 100%;
+  padding-top: 40px;
+  color: black;
+  font-family: 'Domine', serif;
+  font-family: 'Open Sans', sans-serif; }
+
+.parrafo {
+  text-decoration: none; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+@media (max-width: 480px) {
+  .float {
+    visibility: hidden; } }
+
+.center {
+  margin: 100px !important;
+  padding: 20px;
+  border: 3px solid;
+  border-radius: 3em;
+  background-color: #87d1d2;
+  box-shadow: 10px 10px 5px #aaaaaa; }
+
+@media (max-width: 480px) {
+  .center {
+    padding: 20px;
+    margin: 60px !important; } }
+
+.hero__eventos {
+  background-image: url(../imagenes/Producciones/Eventos/Banner6.png);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center; }
+
+.contenido-hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* transparencia en el hero */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; }
+
+.hero__cakes {
+  background-image: url(../imagenes/Producciones/Cakes/Banner2.png);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center; }
+
+.contenido-hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* transparencia en el hero */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; }
+
+.hero__cookies {
+  background-image: url(../imagenes/Producciones/Cookies/Cookies.png);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center; }
+
+.contenido-hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* transparencia en el hero */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; }
+
+.hero__macarons {
+  background-image: url(../imagenes/Producciones/Macarons/Macarns3.png);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center; }
+
+.contenido-hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* transparencia en el hero */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; }
 
 html {
   box-sizing: border-box; }
