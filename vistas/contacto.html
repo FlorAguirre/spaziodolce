@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <section class="hero">
+        <section class="hero__contacto">
             <div class="contenido-hero">
                 <img class="imagen__logo animate__animated animate__slideInDown"
                     src="../Spazio Dolce -20220317T220057Z-001/Spazio Dolce/LOGOS/DIGITAL/LOGO-01.jpg" alt="">
@@ -33,12 +33,18 @@
                                 <a class="nav-link active estilo__letra" aria-current="page"
                                     href="../index.html">Home</a>
                             </li>
-                            <li class="nav-item ">
-                                <a class="nav-link estilo__letra" href="#scrollspyHeading2">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link estilo__letra" href="#scrollspyHeading3">Sobre Nosotros</a>
-                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle color header__size estilo__letra" href="#"
+                                  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Productos
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item " href="./eventos.html">Eventos</a></li>
+                                  <li><a class="dropdown-item" href="./cakes.html">Tortas</a></li>
+                                  <li><a class="dropdown-item" href="./combos.html">Combos</a></li>
+                                  <li><a class="dropdown-item" href="./macarons.html">Macarons</a></li>
+                              </ul>
+                          </li>
                             <li class="nav-item">
                                 <a class="nav-link estilo__letra" href="#">Contáctanos</a>
                             </li>
@@ -46,52 +52,35 @@
                     </div>
                 </div>
             </nav>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
-                tabindex="0">
-                <h4 id="scrollspyHeading1"></h4>
-                <p>...</p>
-                <h4></h4>
-                <p>...</p>
-                <h4></h4>
-                <p>...</p>
-                <h4 id="scrollspyHeading4"></h4>
-                <p>...</p>
-                <h4 id="scrollspyHeading5"></h4>
-                <p>...</p>
-            </div>
+
         </section>
     </header>
  <main>
      <form class="row g-3 center">
     <div class="col-md-4">
-      <label for="validationServer01" class="form-label">Nombre</label>
-      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-      <div class="valid-feedback">
-       Ok!
-      </div>
+      <label  class="form-label">Nombre</label>
+      <input type="text" class="form-control" placeholder="Ingrese su nombre" required>
+     
     </div>
     <div class="col-md-4">
       <label for="validationServer02" class="form-label">Apellido</label>
-      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+      <input type="text" class="form-control " id="validationServer02" placeholder="Ingrese su apellido" required>
       <div class="valid-feedback">
         Ok!
       </div>
     </div>
     <div class="col-md-4">
       <label for="validationServerUsername" class="form-label">Email</label>
-      <input class="form-control is-valid" type="email"  placeholder="Email" id="email">
+      <input class="form-control " type="email"  placeholder="Ingrese su Email" id="email">
     </div>
     </div>
     <div class="col-md-6">
       <label for="validationServer03" class="form-label">Ciudad</label>
-      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-      <div id="validationServer03Feedback" class="invalid-feedback">
-        Por favor ingresar una ciudad válida.
-      </div>
+      <input type="text" class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Ingrese su Ciudad" required>
     </div>
     <div class="col-md-3">
       <label for="validationServer04" class="form-label">Provincia</label>
-      <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
         <option selected disabled value="">Seleccionar...</option>
         <option>Buenos Aires</option>
         <option>Ciudad Autónoma de Buenos Aires</option>
@@ -119,16 +108,11 @@
         <option>Tucumán</option>
 
       </select>
-      <div id="validationServer04Feedback" class="invalid-feedback">
-        Por favor ingresar una provincia válida.
-      </div>
     </div>
     <div class="col-md-3">
       <label for="validationServer05" class="form-label">Codigo Postal</label>
-      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-      <div id="validationServer05Feedback" class="invalid-feedback">
-        Por favor ingresar un codigo postal válido.
-      </div>
+      <input type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" placeholder="Ingrese su Codigo Postal" required>
+    
     </div>
     <div class="campo">
         <label class="form-label" for="mensaje">Mensaje</label>
